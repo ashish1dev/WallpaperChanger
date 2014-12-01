@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">WallpaperChanger</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_display_image" translatable="false">DisplayImage</string>
+    <string name="title_activity_image_gallery_demo" translatable="false">WallpaperChanger_Ver2</string>
+    <string name="add_new_image" translatable="false">add new image</string>
+    <string name="minutes" translatable="false">Minutes</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="seconds" translatable="false">Seconds</string>
+    <string name="title_activity_change_timer" translatable="false">ChangeTimer</string>
+    <string name="set_time_interval" translatable="false">Set Time Interval</string>
+    <string name="title_activity_intro_screen" translatable="false">Sandra\'s App</string>
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+    <string name="textview" translatable="false">My art  is a multidimensional reflection of my spiritual connections flowing to various media in a delightful and moving display that draws your mind, body and soul into inspiration and understanding of yourself and who you are. Center your heart, soften your gaze and relax your mind while you immerse yourself in the beauty of each piece. Each piece will help you to find balance, beauty and harmony throughout your day. Your wallpaper will change automatically every 2 months, rotating the pieces. You can also determine how often you want the wallpaper to change. Use the pieces as profile pictures, post, pin, tweet and share with friends and family and allow them to also benefit from the positive energy radiating from each piece.</string>
+    <string name="title_activity_list_view_android_example" translatable="false">Select Image</string>
+    <string name="title_activity_image1" translatable="false">Abundance Self Spirit</string>
+	<string name="title_activity_image2" translatable="false">Extra Ordinary</string>
+	<string name="title_activity_image3" translatable="false">Family Peace</string>
+	<string name="title_activity_image4" translatable="false">Loving Hand</string>
+	<string name="title_activity_image5" translatable="false">Re Evolution</string>
+	<string name="title_activity_image6" translatable="false">Shared Journey</string>
+</resources>

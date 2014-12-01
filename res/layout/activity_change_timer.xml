@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myexample.wallpaperchanger.ChangeTimerActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@color/lightgray" >
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="130dp"
+         />
+
+    <NumberPicker
+        android:id="@+id/numberPicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/numberPicker1"
+        android:layout_marginRight="53dp"
+         />
+ 
+    
+    <TextView
+        android:id="@+id/HeadingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Set Time Interval"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/SecLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MinLabel"
+        android:layout_alignBottom="@+id/MinLabel"
+        android:layout_alignLeft="@+id/numberPicker2"
+        android:text="@string/seconds"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numberPicker1"
+        android:layout_alignRight="@+id/SecLabel"
+        android:layout_below="@+id/numberPicker1"
+        android:layout_marginTop="42dp"
+        android:onClick="SaveClicked"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/MinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numberPicker2"
+        android:layout_alignRight="@+id/numberPicker1"
+        android:layout_marginBottom="16dp"
+        android:text="Minutes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

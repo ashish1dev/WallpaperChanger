@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myexample.wallpaperchanger"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            
+            android:name="com.myexample.wallpaperchanger.MainActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher" >
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.ImageGalleryDemoActivity"
+            android:label="@string/title_activity_image_gallery_demo" >         
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.ChangeTimerActivity"
+            android:label="@string/title_activity_change_timer" >
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.IntroScreen"
+            android:label="@string/title_activity_intro_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.ListViewImagesName"
+            android:label="@string/title_activity_list_view_android_example" >
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.Image1Activity"
+            android:label="@string/title_activity_image1" >
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.Image2Activity"
+            android:label="@string/title_activity_image2" >
+        </activity>
+       	<activity
+            android:name="com.myexample.wallpaperchanger.Image3Activity"
+            android:label="@string/title_activity_image3" >
+        </activity>
+      	<activity
+            android:name="com.myexample.wallpaperchanger.Image4Activity"
+            android:label="@string/title_activity_image4" >
+        </activity>
+       	<activity
+            android:name="com.myexample.wallpaperchanger.Image5Activity"
+            android:label="@string/title_activity_image5" >
+        </activity>
+        <activity
+            android:name="com.myexample.wallpaperchanger.Image6Activity"
+            android:label="@string/title_activity_image6" >
+        </activity>
+    </application>
+</manifest>

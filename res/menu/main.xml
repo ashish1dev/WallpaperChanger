@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wallpaperchanger.MainActivity" >
+
+   	<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+      <item
+            android:id="@+id/menu_item_share"
+            android:showAsAction="ifRoom"
+            android:title="Share"
+            android:actionProviderClass=
+                "android.widget.ShareActionProvider" />
+      
+      <item 
+          android:id="@+id/more"
+      		android:showAsAction="always"
+      		android:title="More Inspiration" />
+      
+      <item
+            android:id="@+id/about_app"
+            android:showAsAction="always"
+            android:title="About App" />
+ 
+      
+</menu>
